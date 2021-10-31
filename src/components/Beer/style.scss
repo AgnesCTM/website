@@ -40,3 +40,10 @@
   max-height: 9999px;
   transition: all 0.5s cubic-bezier(1,0,1,0);
 }
+
+@media only screen and (max-width: 600px) {
+  .item {
+    width: 100%;
+    margin-right: 0;
+  }
+}
